@@ -60,7 +60,7 @@ inline static string int2str(int i){
 template <typename T, int n, int l>
 void Completer<T,n,l>::checkSolutions(){
 	// deux matrices temporaires contenant les solutions à comparer
-	constexpr int size = l*n;
+	const int size = l*n;
 	Matrix<int,size,size> SOL_I(n*l);
 	Matrix<int,size,size> SOL_J(n*l);
 	bool differentes=true;

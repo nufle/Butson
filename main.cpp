@@ -25,8 +25,8 @@ using std::clock_t;
 int main (int argc, char ** argv)
 {
 	// TO BE REPLACED by bash script
-	constexpr int lconst = 2;
-	constexpr int Nconst = NVALUE;
+	const int lconst = 2;
+	const int Nconst = NVALUE;
 
 	const int sizeT = lconst * Nconst;
 	Matrix<int,sizeT,sizeT> MN;
