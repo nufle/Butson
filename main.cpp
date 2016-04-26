@@ -25,7 +25,7 @@ using std::clock_t;
 int main (int argc, char ** argv)
 {
 	// TO BE REPLACED by bash script
-	const int lconst = 2;
+	const int lconst = LVALUE;
 	const int Nconst = NVALUE;
 
 	const int sizeT = lconst * Nconst;
